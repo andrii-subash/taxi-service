@@ -5,7 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98f66d2e-6eb6-4f1b-97eb-8a4dd41f4a3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/car/AddCarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/car/AddDriverToCarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/car/DeleteCarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/car/GetAllCarsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/driver/AddDriverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/driver/DeleteDriverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/driver/GetAllDriversController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/driver/GetMyCurrentCarsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/manufacturer/AddManufacturerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/manufacturer/DeleteManufacturerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/manufacturer/GetAllManufacturersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/CarDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/CarDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/DriverDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/DriverDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/ManufacturerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/ManufacturerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/exception/AuthenticationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/exception/DataProcessingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/exception/RegistrationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/filter/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/lib/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/lib/Inject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/lib/Injector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/lib/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/model/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/model/Manufacturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/AuthenticationServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/CarServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/DriverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/DriverServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/GenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/ManufacturerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/ManufacturerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/RegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/RegistrationServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/util/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/init_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/car/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/car/all.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/car/driver/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/table_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/driver/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/driver/all.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/driver/car/all.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manufacturer/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manufacturer/all.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +80,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,19 +91,59 @@
     </option>
   </component>
   <component name="ProjectId" id="2ReIrhgUkKdutgKIAuqtPVGNPXU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Admin/Downloads",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/mate.a/taxi-service",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\mate.a\taxi-service" />
+      <recent name="C:\Users\Admin\Desktop\mate.a\taxi-service\src\main" />
+      <recent name="C:\Users\Admin\Desktop\mate.a\taxi-service\src\main\resources" />
+      <recent name="C:\Users\Admin\Desktop\mate.a\taxi-service\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" nameIsGenerated="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="port" value="8082" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.75 (11)" />
+          <option name="path" value="D:/apache-tomcat-10.1.9-windows-x64/apache-tomcat-9.0.75" />
+          <option name="version" value="9.0.75.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="taxi-service-test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
